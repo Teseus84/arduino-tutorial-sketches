@@ -49,11 +49,7 @@ void loop() {
 
 int readAndDivide() {
   int reading = analogRead(A0);
-  if (reading != 0) {
-    return reading / 3;
-  } else {
-    return reading;
-  }
+  return reading / 3;
 }
 
 void goForward(int i) {
