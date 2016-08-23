@@ -79,6 +79,7 @@ byte handsUp[8] = {
   B00100,
   B01010,
   B10001,
+  B00000
 };
 
 void setup() {
